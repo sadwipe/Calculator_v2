@@ -78,6 +78,13 @@ changeSign.addEventListener("click", () => {
   currentNumberLabel.textContent = currentNumber;
 });
 
+percent.addEventListener("click", () => {
+  currentNumber = +currentNumberLabel.textContent;
+  currentNumber /= 100;
+  currentNumberLabel.textContent = currentNumber;
+  hasComma = true;
+});
+
 operators.forEach((operator) => {
   operator.addEventListener("click", (e) => {
     sign = e.target.getAttribute("value");
@@ -109,6 +116,10 @@ equal.addEventListener("click", () => {
     );
   }
 });
+
+allClear.addEventListener("click" ,() => {
+  window.location.reload();
+})
 
 updateClock();
 setInterval(updateClock, 1000);
