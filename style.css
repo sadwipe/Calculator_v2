@@ -4,6 +4,7 @@
   box-sizing: border-box;
   user-select: none;
   font-family: "Helvetica Neue", sans-serif;
+  touch-action: manipulation;
 }
 
 img {
