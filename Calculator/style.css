@@ -14,7 +14,7 @@ img {
 .screen {
   background-color: black;
   height: 80vh;
-  width: 39vh;
+  width: 41vh;
   border: 3px solid black;
   border-radius: 50px;
   position: absolute;
@@ -74,6 +74,11 @@ img {
   color: rgb(255, 255, 255);
 }
 
+.equal {
+  background-color: rgb(253, 160, 46);
+  color: rgb(255, 255, 255);
+}
+
 .gray {
   background-color: rgb(165, 165, 165);
   color: rgb(0, 0, 0);
@@ -81,7 +86,7 @@ img {
 
 .current-number {
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   width: 35vh;
   text-align: end;
 }
