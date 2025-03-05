@@ -71,12 +71,12 @@ img {
 }
 
 .operator {
-  background-color: rgb(253, 160, 46);
+  background-color: red;
   color: rgb(255, 255, 255);
 }
 
 .equal {
-  background-color: rgb(253, 160, 46);
+  background-color: red;
   color: rgb(255, 255, 255);
 }
 
